@@ -1,6 +1,6 @@
 # marine_routes.py
 from flask import Blueprint, jsonify, request
-from api import sports_handler
+from handlers import sports_handler
 from redis_config import redis  # Import the 'redis' object
 import json
 
