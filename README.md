@@ -43,6 +43,16 @@ To set up the project locally, follow these steps:
 - `GET /sports/register/<email>`: Get user's city registrations by email.
 - `DELETE /sports/register/<id>`: Delete a user's city registration by ID.
 
+### Example for `POST /sports/register`
+
+#### Request
+
+```json
+{
+    "email": "example@gmail.com",
+    "city": "london"
+}
+
 ## Contributing
 
 Contributions are welcome! Feel free to open an issue or create a pull request.
